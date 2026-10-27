@@ -1,0 +1,37 @@
+:root {
+    
+}
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: ghostwhite;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .75rem 6.25rem;
+}
+nav ul {
+    list-style:none;
+    column-gap: 1.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color:inherit;
+}
+nav ul li:hover {
+    color:darkgrey; 
+}
+nav ul li:active {
+    transform: scale(0.95);
+}
